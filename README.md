@@ -1,13 +1,21 @@
 # Awesome-Deep-Learning-Methods-For-Disease-Diagnosis-Based-On-CT-Scans
 A Reading List of DL Methods for Disease Diagnosis Based on CT
 
-## 2D
+## 2D Methods
+[Deep Learning for Tuberculosis CT Image Analysis](https://ceur-ws.org/Vol-2380/paper_54.pdf); 
+
+[ImageCLEF 2019: Projection-based CT Image Analysis for TB Severity Scoring and CT Report Generation](https://ceur-ws.org/Vol-2380/paper_70.pdf); CLEF (Working Notes) 2019  
+**Tuberculosis:** 本文提出了一种自动分析3D CT的方法，将3D CT表示为沿三个轴的一组2D投影图像，每个轴2张，共6张。这种方法降低了输入数据的维度，因此允许使用不太复杂的模型来执行图像分类任务。  
+**Dataset:** ImageCLEF Tuberculosis 2019
+
+[Multi-View CNN with MLP for Diagnosing Tuberculosis  Patients Using CT Scans and Clinically Relevant  Metadata](https://www.researchgate.net/profile/U-Cevik/publication/334654878_Multi-View_CNN_with_MLP_for_Diagnosing_Tuberculosis_Patients_Using_CT_Scans_and_Clinically_Relevant_Metadata/links/5d387e58299bf1995b47dc1a/Multi-View-CNN-with-MLP-for-Diagnosing-Tuberculosis-Patients-Using-CT-Scans-and-Clinically-Relevant-Metadata.pdf); 
+
 [Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1.full.pdf); MedRxiv 2020  
 **COVID-19:** 提出了一种Self-Trans方法，将对比自监督学习与迁移学习集成，当数据量较小的时候也能取得较好的效果。  
 **Dataset:** [COVID-CT](https://github.com/UCSD-AI4H/COVID-CT)
 
 
-## 3D
+## 3D Methods
 [Estimating Severity from CT Scans of Tuberculosis Patients using 3D Convolutional Nets and Slice Selection](https://www.researchgate.net/profile/Hasib-Zunair/publication/334680379_Estimating_Severity_from_CT_Scans_of_Tuberculosis_Patients_using_3D_Convolutional_Nets_and_Slice_Selection/links/5e585b99a6fdccbeba079f36/Estimating-Severity-from-CT-Scans-of-Tuberculosis-Patients-using-3D-Convolutional-Nets-and-Slice-Selection.pdf); CLEF (Working Notes) 2019  
 **Tuberculosis:** 针对每个3D volume，选择the first 4 slices, the middle 8 silces and the last 4 silces，总共16个切片，并利用3D CNN网络来诊断肺结核。  
 **Dataset:** ImageCLEF Tuberculosis 2019
