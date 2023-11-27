@@ -2,10 +2,12 @@
 A Reading List of DL Methods for Disease Diagnosis Based on CT
 
 ## 2D Methods
-[Deep Learning for Tuberculosis CT Image Analysis](https://ceur-ws.org/Vol-2380/paper_54.pdf); 
+[ImageCLEF 2019: Deep Learning for Tuberculosis CT Image Analysis](https://ceur-ws.org/Vol-2380/paper_54.pdf); CLEF (Working Notes) 2019  
+**Tuberculosis:** 使用了两种切片选择方法，基于被选切片，利用2D CNN来提取特征，最后实现预测肺结核严重程度和生成CT报告两个任务。两种切片选择方法：1）医生选择；2）选择中间层的N个切片。  
+**Dataset:** ImageCLEF Tuberculosis 2019
 
 [ImageCLEF 2019: Projection-based CT Image Analysis for TB Severity Scoring and CT Report Generation](https://ceur-ws.org/Vol-2380/paper_70.pdf); CLEF (Working Notes) 2019  
-**Tuberculosis:** 本文提出了一种自动分析3D CT的方法，将3D CT表示为沿三个轴的一组2D投影图像，每个轴2张，共6张。这种方法降低了输入数据的维度，因此允许使用不太复杂的模型来执行图像分类任务。  
+**Tuberculosis:** 提出了一种自动分析3D CT的方法，将3D CT表示为沿三个轴的一组2D投影图像，每个轴2张，共6张。这种方法降低了输入数据的维度，因此允许使用不太复杂的模型来执行图像分类任务。  
 **Dataset:** ImageCLEF Tuberculosis 2019
 
 [Multi-View CNN with MLP for Diagnosing Tuberculosis  Patients Using CT Scans and Clinically Relevant  Metadata](https://www.researchgate.net/profile/U-Cevik/publication/334654878_Multi-View_CNN_with_MLP_for_Diagnosing_Tuberculosis_Patients_Using_CT_Scans_and_Clinically_Relevant_Metadata/links/5d387e58299bf1995b47dc1a/Multi-View-CNN-with-MLP-for-Diagnosing-Tuberculosis-Patients-Using-CT-Scans-and-Clinically-Relevant-Metadata.pdf); 
