@@ -1,4 +1,4 @@
-# Awesome-Deep-Learning-Methods-For-Disease-Diagnosis-Based-On-CT-Scans
+# Deep-Learning-Methods-For-Disease-Diagnosis-Based-On-CT-Scans
 A Reading List of DL Methods for Disease Diagnosis Based on CT
 
 ## 2D Methods
@@ -11,6 +11,8 @@ A Reading List of DL Methods for Disease Diagnosis Based on CT
 **Dataset:** ImageCLEF Tuberculosis 2019
 
 [Multi-View CNN with MLP for Diagnosing Tuberculosis  Patients Using CT Scans and Clinically Relevant  Metadata](https://www.researchgate.net/profile/U-Cevik/publication/334654878_Multi-View_CNN_with_MLP_for_Diagnosing_Tuberculosis_Patients_Using_CT_Scans_and_Clinically_Relevant_Metadata/links/5d387e58299bf1995b47dc1a/Multi-View-CNN-with-MLP-for-Diagnosing-Tuberculosis-Patients-Using-CT-Scans-and-Clinically-Relevant-Metadata.pdf); 
+**Tuberculosis:**   将三维CT图像从轴向、冠状和矢状三个维度进行重建，得到2D CT图像，利用2D AlexNet提取特征，并将特征拼接起来。  
+**Dataset:** ImageCLEF Tuberculosis 2019
 
 [Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1.full.pdf); MedRxiv 2020  
 **COVID-19:** 提出了一种Self-Trans方法，将对比自监督学习与迁移学习集成，当数据量较小的时候也能取得较好的效果。  
