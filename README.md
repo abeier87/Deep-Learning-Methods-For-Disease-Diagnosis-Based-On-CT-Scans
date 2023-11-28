@@ -10,6 +10,10 @@ A Reading List of DL Methods for Disease Diagnosis Based on CT
 **Tuberculosis:** 提出了一种自动分析3D CT的方法，将3D CT表示为沿三个轴的一组2D投影图像，每个轴2张，共6张。这种方法降低了输入数据的维度，因此允许使用不太复杂的模型来执行图像分类任务。  
 **Dataset:** ImageCLEF Tuberculosis 2019
 
+[Interpretable Medical Image Classification Using Prototype Learning and Privileged Information](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_41); MICCAI 2023  
+**Lung nodule:**   
+**Dataset:**  
+
 [Multi-View CNN with MLP for Diagnosing Tuberculosis  Patients Using CT Scans and Clinically Relevant  Metadata](https://www.researchgate.net/profile/U-Cevik/publication/334654878_Multi-View_CNN_with_MLP_for_Diagnosing_Tuberculosis_Patients_Using_CT_Scans_and_Clinically_Relevant_Metadata/links/5d387e58299bf1995b47dc1a/Multi-View-CNN-with-MLP-for-Diagnosing-Tuberculosis-Patients-Using-CT-Scans-and-Clinically-Relevant-Metadata.pdf); 
 **Tuberculosis:**   将三维CT图像从轴向、冠状和矢状三个维度进行重建，得到2D CT图像，利用2D AlexNet提取特征，并将特征拼接起来。  
 **Dataset:** ImageCLEF Tuberculosis 2019
@@ -17,6 +21,10 @@ A Reading List of DL Methods for Disease Diagnosis Based on CT
 [Sample-Efficient Deep Learning for COVID-19 Diagnosis Based on CT Scans](https://www.medrxiv.org/content/10.1101/2020.04.13.20063941v1.full.pdf); MedRxiv 2020  
 **COVID-19:** 提出了一种Self-Trans方法，将对比自监督学习与迁移学习集成，当数据量较小的时候也能取得较好的效果。  
 **Dataset:** [COVID-CT](https://github.com/UCSD-AI4H/COVID-CT)
+
+[TransLiver: A Hybrid Transformer Model for Multi-phase Liver Lesion Classification](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_31); MICCAI 2023  
+**Liver Lesion:** 设计了一种Hybrid transformer模型，利用多期CT来实现肝脏局灶性病变的早期诊断。  
+**Dataset:** 1个私有数据集，来自Sir Run Run Shaw Hospital (SRRSH)
 
 
 ## 3D Methods
