@@ -14,7 +14,7 @@ A Reading List of DL Methods for Disease Diagnosis Based on CT
 **Lung nodule:**   
 **Dataset:**  
 
-[Multi-View CNN with MLP for Diagnosing Tuberculosis  Patients Using CT Scans and Clinically Relevant  Metadata](https://www.researchgate.net/profile/U-Cevik/publication/334654878_Multi-View_CNN_with_MLP_for_Diagnosing_Tuberculosis_Patients_Using_CT_Scans_and_Clinically_Relevant_Metadata/links/5d387e58299bf1995b47dc1a/Multi-View-CNN-with-MLP-for-Diagnosing-Tuberculosis-Patients-Using-CT-Scans-and-Clinically-Relevant-Metadata.pdf); 
+[Multi-View CNN with MLP for Diagnosing Tuberculosis  Patients Using CT Scans and Clinically Relevant  Metadata](https://www.researchgate.net/profile/U-Cevik/publication/334654878_Multi-View_CNN_with_MLP_for_Diagnosing_Tuberculosis_Patients_Using_CT_Scans_and_Clinically_Relevant_Metadata/links/5d387e58299bf1995b47dc1a/Multi-View-CNN-with-MLP-for-Diagnosing-Tuberculosis-Patients-Using-CT-Scans-and-Clinically-Relevant-Metadata.pdf);  
 **Tuberculosis:**   将三维CT图像从轴向、冠状和矢状三个维度进行重建，得到2D CT图像，利用2D AlexNet提取特征，并将特征拼接起来。  
 **Dataset:** ImageCLEF Tuberculosis 2019
 
